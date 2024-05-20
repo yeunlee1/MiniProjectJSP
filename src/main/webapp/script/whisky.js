@@ -1,0 +1,7 @@
+function productCheck(){
+        return false;
+
+}
+
+
+

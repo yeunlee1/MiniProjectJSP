@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+body{
+	background-color: #f7f7f7;}
+	
+ul>li{
+	list-style: none}
+	
+a{
+	text-decoration: none;}
+	
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;}
+	
+#joinForm{
+	width: 460px;
+	margin: 0 auto;}
+	
+ul.join_box{
+	border: 1px solid #ddd;
+	background-color: #fff;}
+	
+.checkBox,.checkBox>ul{
+	position: relative;}
+
+.checkBox>ul>li{
+	float: left;}
+	
+.checkBox>ul>li:first-child{
+	width: 85%;padding: 15px;
+	font-weight: 600;
+	color: #888;}
+	
+.checkBox>ul>li:nth-child(2){
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	margin-top: -12px;}
+	
+.checkBox textarea{
+	width: 96%;
+	height: 90px; 
+	margin: 0 2%;
+	background-color: #f7f7f7;
+	color: #888; 
+	border: none;}
+	
+.footBtwrap{
+	margin-top: 15px;}
+	
+.footBtwrap>li{
+	float: left;width: 50%;
+	height: 60px;}
+	
+.footBtwrap>li>button{
+	display: block; 
+	width: 100%;
+	height: 100%; 
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;}
+	
+.fpmgBt1{
+	background-color: #fff;
+	color:#888;
+	border-color: #eee;}
+	
+.fpmgBt2{
+	background-color: lightsalmon;
+	color: #fff; 
+	border-color: #eee;}
+	
+	
+	
+	
+	/*기정이 추가한 부분*/
+
+#demo ul {
+	
+	height: 370px;
+	
+	
+}
+
+
+hr {
+	
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+
+#categorymenu-m{
+
+	text-decoration : none;
+	color: inherit; /* 링크의 색상을 상속받음 */
+	color: rgba(242, 214, 162, 1);
+	font-size: 17px;
+}
+
+
+#categorymenu-m li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold; 
+}
+
+
+#mypage {
+	
+	
+	padding-top: 10px;
+	text-decoration: none; /* 밑줄 제거 */
+	color: inherit; /* 링크의 색상을 상속받음 */
+	color: rgba(242, 214, 162, 1);
+	text-decoration: none;
+    font-weight: bold;
+	
+	
+	
+	
+}
+
+
+
+/*기정이 추가한 부분 끝*/
